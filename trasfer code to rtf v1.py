@@ -5,7 +5,7 @@ from pygments.formatters import RtfFormatter
 c=input("请输入你准备转换为rtf文件的代码：")
 
 doc = Document()
-code = '''   '''#在这里添加代码
+code = c#'''   '''代码有多行时，直接在三引号这里添加代码
 rtf_code = highlight(code, PythonLexer(), RtfFormatter())
 
 # 创建临时RTF文件
